@@ -79,19 +79,19 @@ export function LandingPage({ onStart, onViewReports, reportsCount }: LandingPag
         <Image
           src="/logo.png"
           alt="InterviewPrep AI"
-          width={80}
-          height={80}
-          className="w-25 h-25"
+          width={250}
+          height={250}
+          className="h-32 w-auto"
         />
         <Button
-          variant="ghost"
+          variant="outline"
           onClick={onViewReports}
-          className="text-muted-foreground hover:text-foreground hover:bg-secondary"
+          className="group relative rounded-full border border-border/50 bg-background/50 backdrop-blur transition-all duration-300 hover:border-primary/50 hover:bg-primary/5 px-6"
         >
-          <FileText className="w-4 h-4 mr-2" />
-          My Reports
+          <FileText className="w-4 h-4 mr-2 text-muted-foreground group-hover:text-primary transition-colors duration-300" />
+          <span className="font-medium text-muted-foreground group-hover:text-foreground transition-colors duration-300">My Reports</span>
           {reportsCount > 0 && (
-            <span className="ml-2 px-2 py-0.5 text-xs rounded-full bg-primary/20 text-primary">
+            <span className="ml-3 flex items-center justify-center min-w-[20px] h-[20px] px-1.5 text-[11px] font-bold rounded-full bg-primary text-primary-foreground shadow-sm shadow-primary/30 group-hover:scale-110 group-hover:shadow-md group-hover:shadow-primary/40 transition-all duration-300">
               {reportsCount}
             </span>
           )}
@@ -140,9 +140,10 @@ export function LandingPage({ onStart, onViewReports, reportsCount }: LandingPag
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3 + index * 0.1 }}
+                  className="h-full"
                 >
                   <Card
-                    className={`cursor-pointer transition-all duration-200 hover:border-primary/50 ${selectedType === type.id
+                    className={`h-full cursor-pointer flex flex-col transition-all duration-200 hover:border-primary/50 ${selectedType === type.id
                       ? "border-primary bg-primary/10"
                       : "border-border"
                       }`}

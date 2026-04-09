@@ -4,3 +4,11 @@
 {"timestamp":"00:00:30.997","source":"Browser","level":"WARN","message":"Image with src \"/logo.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
 {"timestamp":"00:00:31.956","source":"Server","level":"WARN","message":"[browser] \"Image with src \\\"/logo.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\""}
 {"timestamp":"00:00:31.957","source":"Browser","level":"WARN","message":"Image with src \"/logo.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"00:04:16.329","source":"Server","level":"LOG","message":"✓ Compiled in 3.3s"}
+{"timestamp":"00:05:50.584","source":"Server","level":"LOG","message":"✓ Compiled in 1130ms"}
+{"timestamp":"00:06:45.189","source":"Server","level":"LOG","message":"✓ Compiled in 503ms"}
+{"timestamp":"00:06:58.336","source":"Server","level":"LOG","message":"✓ Compiled in 456ms"}
+{"timestamp":"00:07:10.921","source":"Server","level":"LOG","message":"✓ Compiled in 251ms"}
+{"timestamp":"00:08:34.078","source":"Server","level":"LOG","message":"✓ Compiled in 621ms"}
+{"timestamp":"00:08:35.635","source":"Server","level":"LOG","message":"✓ Compiled in 225ms"}
+{"timestamp":"00:09:44.731","source":"Server","level":"LOG","message":"✓ Compiled in 400ms"}

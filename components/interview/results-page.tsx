@@ -130,9 +130,9 @@ export function ResultsPage({ results, onTryAgain, onChangeType }: ResultsPagePr
           <Image
             src="/logo.png"
             alt="InterviewPrep AI"
-            width={40}
-            height={40}
-            className="w-10 h-10"
+            width={250}
+            height={250}
+            className="h-32 w-auto"
           />
         </div>
 

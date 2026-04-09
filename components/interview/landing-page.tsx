@@ -81,7 +81,7 @@ export function LandingPage({ onStart, onViewReports, reportsCount }: LandingPag
           alt="InterviewPrep AI"
           width={250}
           height={250}
-          className="h-32 w-auto"
+          className="h-32 w-auto pl-6"
         />
         <Button
           variant="outline"

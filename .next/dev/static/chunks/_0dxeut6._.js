@@ -331,7 +331,7 @@ function LandingPage({ onStart, onViewReports, reportsCount }) {
                         alt: "InterviewPrep AI",
                         width: 250,
                         height: 250,
-                        className: "h-32 w-auto"
+                        className: "h-32 w-auto pl-6"
                     }, void 0, false, {
                         fileName: "[project]/components/interview/landing-page.tsx",
                         lineNumber: 79,
@@ -2386,9 +2386,9 @@ function InterviewSession({ config, onComplete, onExit }) {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$0_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$0_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 src: "/logo.png",
                                 alt: "InterviewPrep AI",
-                                width: 36,
-                                height: 36,
-                                className: "w-9 h-9"
+                                width: 250,
+                                height: 250,
+                                className: "h-32 w-auto pl-4"
                             }, void 0, false, {
                                 fileName: "[project]/components/interview/interview-session.tsx",
                                 lineNumber: 687,
@@ -3280,7 +3280,7 @@ function ResultsPage({ results, onTryAgain, onChangeType }) {
                             alt: "InterviewPrep AI",
                             width: 250,
                             height: 250,
-                            className: "h-32 w-auto"
+                            className: "h-32 w-auto pl-4"
                         }, void 0, false, {
                             fileName: "[project]/components/interview/results-page.tsx",
                             lineNumber: 130,
@@ -3866,7 +3866,7 @@ function ReportsHistory({ reports, onBack, onViewReport, onDeleteReport }) {
                         alt: "InterviewPrep AI",
                         width: 250,
                         height: 250,
-                        className: "h-32 w-auto"
+                        className: "h-32 w-auto pl-4"
                     }, void 0, false, {
                         fileName: "[project]/components/interview/reports-history.tsx",
                         lineNumber: 86,

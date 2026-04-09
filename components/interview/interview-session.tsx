@@ -687,9 +687,9 @@ export function InterviewSession({ config, onComplete, onExit }: InterviewSessio
           <Image
             src="/logo.png"
             alt="InterviewPrep AI"
-            width={36}
-            height={36}
-            className="w-9 h-9"
+            width={250}
+            height={250}
+            className="h-32 w-auto pl-4"
           />
           <Button
             variant="ghost"
